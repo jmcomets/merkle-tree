@@ -4,4 +4,6 @@ name = "merkle-tree"
 version = "0.1.0"
 
 [dependencies]
-sha1 = "0.4.0"
+itertools = "0.7.6"
+tiger = { git = "https://github.com/jmcomets/hashes.git", branch = "tiger" }
+generic-array = "*"
